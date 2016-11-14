@@ -1,0 +1,294 @@
+/*HEADER*/
+header {
+background: url("header.jpg");
+background-repeat: no-repeat;
+background-size: auto;
+height: 300px;
+margin: 0 auto;
+text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 70px;
+  /*margin: 0;*/
+  /*padding: 0;*/
+  /*list-style: none;*/
+  /*color: black;*/
+}
+.surf {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 75px;
+}
+h6 {
+  margin-top: -57px;
+}
+.header-nav a{
+  text-decoration: none;
+  color: black;
+  }
+  /*MAIN BODY*/
+.main{
+display: flex;
+width: 80%;
+margin: 0 auto;
+flex-direction: row;
+justify-content: space-around;
+}
+/*.main-body {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}*/
+.art-left {
+ width: 60%;
+}
+.anne{
+  padding-right: 22px;
+  color: #164796;
+}
+.date {
+  color: #a8b3c4;
+}
+.art-left-text {
+  text-align: justify;
+  font-family: 'Oswald', sans-serif;
+  color: #083452;
+  font-size: 45px;
+  margin-bottom: 1px;
+}
+.car1{
+  background: #d1d1d1;
+  margin: 10px;
+  padding: 5px 7px 7px;
+}
+.imgcar1{
+  background: #4e4949;
+  padding: 6px;
+  margin-bottom: -10px;
+  margin-left: -6px;
+
+}
+.car2{
+  background: #d1d1d1;
+  margin: 10px;
+  padding: 5px 7px 7px;
+}
+.imgcar2{
+  background: #4e4949;
+  padding: 8px;
+  margin-bottom: -10px;
+  margin-left: -6px;
+
+}
+.car3{
+  background: #d1d1d1;
+  margin: 10px;
+  padding: 5px 7px 7px;
+}
+.imgcar3{
+  background: #4e4949;
+  padding: 8px;
+  margin-bottom: -10px;
+  margin-left: -6px;
+
+}
+/*hovering*/
+.car1:hover {
+  background: #164796;
+}
+.car1:hover img {
+  background: #041d44;
+}
+.car2:hover {
+  background: #164796;
+}
+.car2:hover img {
+  background: #041d44;
+}
+
+.car3:hover {
+  background: #164796;
+}
+.car3:hover img {
+  background: #041d44;
+}
+.chic{
+  color: #a8b3c4;
+}
+.chic:hover{
+  color: #164796;
+}
+.blah {
+  color: white;
+  text-decoration: none;
+}
+
+/*Right Article*/
+.art-right {
+ width: 30%;
+}
+.avatar1 {
+  margin-left: 100px;
+}
+.anne2{
+text-align: center;
+  color: #a8b3c4;
+}
+.anne2 a{
+  text-decoration: none;
+  color: #a8b3c4;
+}
+.anne3{
+  color: #164796;
+  text-align: center;
+}
+.ad {
+  color: #a8b3c4;
+  text-align: center;
+  margin-top: 0px;
+  padding-left: 160px;
+}
+.sidebar {
+  color: #164796;
+  font-family: sans-serif;
+}
+.sidebar2{
+  margin-top: 6px;
+}
+/*line*/
+.line{
+    border-left: 2px solid #9E9E9E;
+    border-right: white;
+    border-top: white;
+    border-bottom: white;
+    margin-left: 7px;
+    color: #164796;
+}
+
+h2{
+    margin: 46px;
+    height: 45px;
+    width: 55%;
+    text-align:center;
+    padding-top: 18px;
+}
+
+/*footer*/
+.strip {
+  border-bottom-color: #a7bdcc;
+  border-bottom-width: -0.7rem;
+}
+h1 {
+  text-align: center;
+  color: #083452;
+}
+footer{
+  display: flex;
+  flex-direction: column;
+  /*margin: 5px 207px;*/
+  background-color: #083452;
+  color: white;
+}
+.flexing{
+  display: flex;
+  background-color: #106db3;
+  margin-bottom: -5px;
+}
+.img-1{
+  opacity: 0.3;
+}
+.img-2{
+  opacity: 0.3;
+}
+.img-3{
+  opacity: 0.3;
+}
+.img-4{
+  opacity: 0.3;
+}
+.img-1:hover{
+  opacity: 1;
+  transition: opacity 2s:
+}
+.img-2:hover{
+  opacity: 1;
+  transition: opacity 2s:
+}
+.img-3:hover{
+  opacity: 1;
+  transition: opacity 2s:
+}
+.img-4:hover{
+  opacity: 1;
+  transition: opacity 2s:
+}
+.img-div-1:hover h2 {
+  color: white;
+}
+.img-div-2:hover h2 {
+  color: white;
+}
+.img-div-3:hover h2 {
+  color: white;
+}
+.img-div-4:hover h2 {
+  color: white;
+}
+.img-text-1{
+  position: absolute;
+  bottom: 5px;
+  font-family: 'Oswald', sans-serif;
+  color: #083452;
+  font-size: 25px;
+}
+.img-text-2{
+  position: absolute;
+  bottom: 5px;
+  font-family: 'Oswald', sans-serif;
+  color: #083452;
+  font-size: 25px;
+}
+.img-text-3{
+  position: absolute;
+  bottom:34px;
+  font-family: 'Oswald', sans-serif;
+  color: #083452;
+  font-size: 25px;
+}
+.img-text-4{
+  position: absolute;
+  bottom: 5px;
+  font-family: 'Oswald', sans-serif;
+  color: #083452;
+  font-size: 25px;
+}
+.img-div-1{
+  position: relative;
+}
+.img-div-2{
+  position: relative;
+}
+.img-div-3{
+  position: relative;
+}
+.img-div-4{
+  position: relative;
+}
+.bottom{
+  display: flex;
+  justify-content: space-around;
+  /*background-color: #063756;*/
+  margin-top: -5px;
+  margin-right: 34px;
+  padding: 22px;
+}
+.nav-text-1 a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: red;
+  font-size: 110%;
+}
